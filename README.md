@@ -66,3 +66,11 @@ The page opened in your browser is now called **Phaser - Template**. That just w
 1. Open the file called: ```index.html```
 2. Find the title there and change it to something more suitable.
 3. See the changes happening to the name on the tab of your browser.
+
+## Empty the Game.js file
+The game will be mainly running in the ```Game.js``` scene. In order to start creating the game we need to remove all current 'game logic' so we can create our own.
+Tasks:
+1. Only one function should be edited.
+2. Leave the logic for the background for now in place.
+3. The rest of the logic can be removed.
+4. Check in the browser to see if this has the expected result. 
