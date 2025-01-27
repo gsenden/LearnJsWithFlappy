@@ -57,7 +57,7 @@ You didn't program anything yet. Lets change that.
 4. The game is split up into different scenes. Open the ```scenes``` folder.
 5. The first scene that is shown is the ```MainMenu.js``` file.
 6. Search for ```this.add.text(512, 460, 'Main Menu', {```
-7. Change ```Main Menu``` here to something more exitiong. Something daring. Something crazy. Maybe even something boring, if you dare. 
+7. Change ```Main Menu``` here to something more exiting. Something daring. Something crazy. Maybe even something boring, if you dare. 
 8. Then save the file.
 9. Watch the fruit of you labour!
 
