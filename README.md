@@ -61,3 +61,8 @@ You didn't program anything yet. Lets change that.
 8. Then save the file.
 9. Watch the fruit of you labour!
 
+## Change the name of page
+The page opened in your browser is now called **Phaser - Template**. That just won't do. Wer are going to change the name of the page.
+1. Open the file called: ```index.html```
+2. Find the title there and change it to something more suitable.
+3. See the changes happening to the name on the tab of your browser.
