@@ -74,3 +74,11 @@ Tasks:
 2. Leave the logic for the background for now in place.
 3. The rest of the logic can be removed.
 4. Check in the browser to see if this has the expected result. 
+
+## Skip the MainMenu for now
+Each time the page loads, first the main menu is shown. This is great for when the game is in production. But when you are developing the game, it is enoying. 
+1. Follow the logic of how the game starts up. Check this in the ```main.js``` file. The first scene loaded is the first scene in the list of scenes.
+2. Once the first scene loads it will tell what next scene to go to. Check this by opening the first scene in the list, and verify what scene will be next.
+3. The Boot and Preloader are scenes that perform a function but don't show anything on screen.
+4. At some point the MainMenu is called as next scene. 
+5. Change this to the Game scene.
