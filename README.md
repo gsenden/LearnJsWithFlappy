@@ -47,3 +47,17 @@ Well lets see this project in action!
 2. Note that a line says ```Local: http://some_url:some_port ```
 3. Holding the ```Ctrl``` button and clicking on the link opens the page.
 4. Success!!! we have a running game!
+5. Leave the game running for now.
+
+## Make the game your own - make your first change
+You didn't program anything yet. Lets change that. 
+1. Make sure you can see both VS Code and the browser.
+2. All edits that you make will happen real time.
+3. All the files that make up your game are in the ```src``` folder.
+4. The game is split up into different scenes. Open the ```scenes``` folder.
+5. The first scene that is shown is the ```MainMenu.js``` file.
+6. Search for ```this.add.text(512, 460, 'Main Menu', {```
+7. Change ```Main Menu``` here to something more exitiong. Something daring. Something crazy. Maybe even something boring, if you dare. 
+8. Then save the file.
+9. Watch the fruit of you labour!
+
