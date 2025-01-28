@@ -2,14 +2,21 @@
 
 I have created this repository for my son. After learning the basics of JavaScript programming, we agreed that it would be nice to sink his teeth into a practical example. This repository is meant to help him by giving him concrete tasks that follow a logical pattern and not to provide copy and paste code.
 
-## First things first - clone this repository
-A repository is the **Git** term for all the files of this project saved on Github. In Git, cloning a repository means that you download it to your local computer. You will use this local downloaded version to create your own files.
+## Make this your own repository
+A repository is the **Git** term for all the files of this project saved on Github. ```Git``` is a source control system used by most developers. Source control systems let you save your files to a remote site and track all changes you made. If you ever want to go back to a previous version, you can. It is also a great way to work together with other developers.
+
+In order to make changes to the template code you will need to make a copy of this repository. 
+1. Create an account on Github. 
+2. Creating a copy in **Git** terms means creating a **Fork**.
+   - Hint find the **Fork** button.
+
+In Git, cloning a repository means that you download it to your local computer. You will use this local downloaded version to create your own files.
 1. Start Visual Studio Code
 	- If another project or folder is open in Visual Studio Code, close it.
 2. Find the Source Control tab.
-3. Clone this Git repository.
-   - Find the address to clone on this page on Github. Hint: Code button.
-   - The clone action in VS Code will create a folder called LearnJsWithFlappy, plan accordingly.
+3. Clone your newly forked Git repository.
+   - Find the address to clone on this page **OF THIS FORK** on Github. Hint: **Code** button.
+   - The clone action in VS Code will create a folder called like you named your **Fork**. If you left it the same as the original repository it will create a folder called ```LearnJsWithFlappy```, plan accordingly.
 
 ## Install Node.js
 We need a way to run the Javascript code on your local machine. For this reason you need to install Node.js. 
