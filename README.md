@@ -104,3 +104,9 @@ Your tasks are then:
 1. Save your files. (if you hadn't done that yet)
 2. Commit your changes.
 3. Push the commit to Github. (This is called Sync in VSCode)
+
+## Syncing your Git fork with the gsenden/LearnJsWithFlappy
+This tutorial is continuously changing. The things is though: you created your own fork of the original repository. Since new steps are being added, you would not see them, because the fork does not update automatically.
+
+To update your fork, you will need to research how to do this.
+1. Research how to update a Git fork.
