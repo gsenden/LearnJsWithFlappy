@@ -93,3 +93,14 @@ Each time the page loads, first the main menu is shown. This is great for when t
 4. At some point the MainMenu is called as next scene. 
 5. Change this to the Game scene.
 
+## Save your changes to Github - or commit and push
+In order to save your changes to Github you need to ```commit``` your changes and then ```push``` them to Github. 
+
+OK, but what does that mean? Commiting your changes will save them to your Git repository on your local computer. Then ```push``` sends these changes to Github. Git is like a chain. You have a repository on your own computer. It is linked to another repository on the internet. In our case this is Github. Each repository can have another repository as its parent. In Git speak: Github is ```upstream``` and your local machine is ```downstream```.
+
+So to get the your code onto Github you first need to save your files, then commit them to the local Git repository and then push them to Github.
+
+Your tasks are then:
+1. Save your files. (if you hadn't done that yet)
+2. Commit your changes.
+3. Push the commit to Github.
