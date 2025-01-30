@@ -110,3 +110,15 @@ This tutorial is continuously changing. The things is though: you created your o
 
 To update your fork, you will need to research how to do this.
 1. Research how to update a Git fork.
+
+## Syncing your Github repository with the repository on your computer
+You have updated the Git fork on Github. But how do you get these changes to be applied and downloaded to your own computer.
+
+In Git speak you want to ```pull``` the changes from Github to your local computer. 
+
+The pulling of changes is something you will do regularly when working with other developers. They make changes to the code and ```push``` their changes to Github. 
+
+But what would happen if the other developer had made a change in a file you also have been working on? When you ```pull``` changes from upstream, Git might detect changes in the same file. In that case you would need to ```merge``` the changes together. VSCode will show the two versions of the file. You will need to decide what to do with each change. For example, first take the change on line 12 from the file on the left and then the change on line 12 from the file on the right. Git is smart enough to not bother you if it detects no conflicts.
+
+Tasks:
+1. Pull the changes from Github.
