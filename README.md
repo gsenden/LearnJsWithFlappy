@@ -103,4 +103,4 @@ So to get the your code onto Github you first need to save your files, then comm
 Your tasks are then:
 1. Save your files. (if you hadn't done that yet)
 2. Commit your changes.
-3. Push the commit to Github.
+3. Push the commit to Github. (This is called Sync in VSCode)
