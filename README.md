@@ -79,6 +79,9 @@ The game will be mainly running in the ```Game.js``` scene. In order to start cr
 Tasks:
 1. Only one function should be edited.
 2. Leave the logic for the background for now in place.
+   - Make sure to only show the background picture. 
+   - Remove the the background color
+   - Remove the transparancy on the image. (alpha channel)
 3. The rest of the logic can be removed.
 4. Check in the browser to see if this has the expected result. 
 
@@ -89,3 +92,4 @@ Each time the page loads, first the main menu is shown. This is great for when t
 3. The Boot and Preloader are scenes that perform a function but don't show anything on screen.
 4. At some point the MainMenu is called as next scene. 
 5. Change this to the Game scene.
+
