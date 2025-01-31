@@ -122,3 +122,21 @@ But what would happen if the other developer had made a change in a file you als
 
 Tasks:
 1. Pull the changes from Github.
+
+## Add the player to the screen
+Now it is time to add the player to the screen. The player is simply an image we want to add to the screen. So we could just use similar code then adding the background in the Game.js. 
+
+1. Find an image. I suggest using free artwork. The rest of the tutorial assumes that you use https://github.com/samuelcust/flappy-bird-assets
+   - Download the files. 
+       - Hint: The green button also allows you to simply download the files as a zip.
+       - Hint: You could also just clone the repository.
+2. Save the images to the ```public/assets``` folder.
+   - Create folder called ```player```.
+   - Only take the files from ```Transparent PNG\flying``` folder.
+3. Load the image file and give it a name.
+   - Use the Preloader to load the player image.
+   - For now load the ```bluebird-midflap.png```.
+   - Hint: You can copy the load function used in the ```Boot.js``` in the ```Preloader.js```
+4. Show the player image on the screen.
+   - Make the change in ```Game.js```.
+   - Show the player image just like the background.
