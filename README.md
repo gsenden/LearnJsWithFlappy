@@ -140,3 +140,6 @@ Now it is time to add the player to the screen. The player is simply an image we
 4. Show the player image on the screen.
    - Make the change in ```Game.js```.
    - Show the player image just like the background.
+
+## Add physics to the player
+The player character is currently just hanging in the air. When the player isn't hitting the fly button, it should fall down. Lets fix that.
