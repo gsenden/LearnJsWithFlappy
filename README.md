@@ -139,6 +139,7 @@ Now it is time to add the player to the screen. The player is simply an image we
 4. Show the player image on the screen.
    - Make the change in ```Game.js```.
    - Show the player image just like the background.
+   - Maybe show the bird at x: 100 and y: 100
 
 ## Add physics to the player
 The player character is currently just hanging in the air. When the player isn't hitting the fly button, it should fall down. Lets fix that.
@@ -148,7 +149,7 @@ In order to do this we need to add physics to the game. This is done by changing
 2. Search the internet for [phaser arcade physics](https://duckduckgo.com/?t=ffab&q=phaser+add+arcade+physics&ia=web).
    - You should find a page from the Phaser documentation. 
    - Read it and change the config in ```main.js``` accordingly.
-   - Also add gravity for y axis 300
+   - Also add gravity for y axis 700
 3. Save and see the glorius changes in the browser.
    
 Huh? What? why isn't it working? 
@@ -156,10 +157,45 @@ Huh? What? why isn't it working?
 Ok, we will need to rewrite a bit how we add the image to the scene.
 1. Look at the Game.js file.
 2. Change the part where you add the image 
-   - Instead of adding the image to this., add it to this.physics.
+   - Instead of adding the image to ```this.```, add it to ```this.physics```.
 3. Save
 4. See your bird falll
 
 NICE!!! It falls. But... it falls of the screen.
 
+## Add the ground
+If we don't want the bird to fall of the screen we should create the ground. That way it will not fall of the screen.
+
+The ground in contrast to our bird is a static object. It should not move when the bird crashes into it. 
+
+Lets create the earth!
+1. Load the ```base.png``` asset in the preloader.
+
+Ehh chief: just a thought here: Where are we going to add the ground. What would be the correct x and y location to put it? --> At the bottom of the screen ofcourse!
+
+Ah OK, lets calculate where that may be. In order to do this we need:
+- The width of the screen.
+- The hight of the screen.
+- The with of the ground image.
+- The hight of the ground image.
+
+1. Search the internet for [phaser get screen dimensions](https://duckduckgo.com/?t=ffab&q=phaser+get+screen+dimensions&ia=web)
+2. Write the x and y value out to the console. (Hint: console.log(`Hello ${name}`))
+3. Check the values in the brower. (Hint: press ```F12``` and see the ```Console``` tab)
+
+Next up the size of the ```base.png```. If you open it in VSCode it shows the image, but it doesn't show the dimensions. Luckaly VSCode allows us to install extensions who let us do that. 
+1. Open the ```Extensions``` tab of VSCode.
+2. Find and install Luna Paint.
+3. Open the ```base.png``` and see in the bottom right corner the dimensions of the image.
+
+Now we can do some calculations:
+1. Calculate the right location for the position of the ```base.png``` at the bottom right of your screen. 
+   - Use the variables of the screen dimensions.
+   - Phaser will use the exact middle of ```base.png``` as its starting point.
+2. See the [platform tutorial page](https://phaser.io/tutorials/making-your-first-phaser-3-game/part4) on the Phaser documentation how to create a group and add the ground to it.
+   - Note that the 'ground' is the name of the loaded image.
+3. Put the output of adding the bird image into a variable called ```player``` i.e. ```let player = this.add...```
+4. Create a collider between the platforms group and the player.
+   - See [part 6 of the tutorial page](https://phaser.io/tutorials/making-your-first-phaser-3-game/part6)
+  
 
