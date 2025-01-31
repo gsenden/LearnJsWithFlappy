@@ -189,7 +189,7 @@ Next up the size of the ```base.png```. If you open it in VSCode it shows the im
 3. Open the ```base.png``` and see in the bottom right corner the dimensions of the image.
 
 Now we can do some calculations:
-1. Calculate the right location for the position of the ```base.png``` at the bottom right of your screen. 
+1. Calculate the right location for the position of the ```base.png``` at the bottom left of your screen. 
    - Use the variables of the screen dimensions.
    - Phaser will use the exact middle of ```base.png``` as its starting point.
 2. See the [platform tutorial page](https://phaser.io/tutorials/making-your-first-phaser-3-game/part4) on the Phaser documentation how to create a group and add the ground to it.
