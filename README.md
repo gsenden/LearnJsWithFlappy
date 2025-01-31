@@ -131,15 +131,35 @@ Now it is time to add the player to the screen. The player is simply an image we
        - Hint: The green button also allows you to simply download the files as a zip.
        - Hint: You could also just clone the repository.
 2. Save the images to the ```public/assets``` folder.
-   - Create folder called ```player```.
-   - Only take the files from ```Transparent PNG\flying``` folder.
+   - Copy the folder called ```sprites``` into the assets.
 3. Load the image file and give it a name.
    - Use the Preloader to load the player image.
    - For now load the ```bluebird-midflap.png```.
-   - Hint: You can copy the load function used in the ```Boot.js``` in the ```Preloader.js```
+   - Hint: Notice the relative path being set.
 4. Show the player image on the screen.
    - Make the change in ```Game.js```.
    - Show the player image just like the background.
 
 ## Add physics to the player
 The player character is currently just hanging in the air. When the player isn't hitting the fly button, it should fall down. Lets fix that.
+
+In order to do this we need to add physics to the game. This is done by changing the configuration of the game. Let's change the config to add the physics.
+1. Find the config data structure in the ```main.js``` file.
+2. Search the internet for [phaser arcade physics](https://duckduckgo.com/?t=ffab&q=phaser+add+arcade+physics&ia=web).
+   - You should find a page from the Phaser documentation. 
+   - Read it and change the config in ```main.js``` accordingly.
+   - Also add gravity for y axis 300
+3. Save and see the glorius changes in the browser.
+   
+Huh? What? why isn't it working? 
+--> We have added physics to the game, but we haven't exposed our bird to it.
+Ok, we will need to rewrite a bit how we add the image to the scene.
+1. Look at the Game.js file.
+2. Change the part where you add the image 
+   - Instead of adding the image to this., add it to this.physics.
+3. Save
+4. See your bird falll
+
+NICE!!! It falls. But... it falls of the screen.
+
+
