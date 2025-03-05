@@ -219,3 +219,25 @@ Recycle Pipes: When a pipe pair moves off-screen, recycle it by repositioning it
 2. Game Over State: Create a "Game Over" state or scene that displays a message (e.g., "Game Over!") and the player's score. Research how to create and switch between scenes or states in Phaser.
 3. Scoring System: Implement a scoring system that increments the player's score each time they successfully pass a pipe. Research how to keep track of and display a score in Phaser.
 4. Restart Game: Add a way for the player to restart the game after a game over. This could be a button or a key press.
+
+## Finishing up
+With the core gameplay loop (flapping, obstacles, game over, scoring) in place, the next step is to polish the game and add visual/audio feedback. 
+
+1. Visual Enhancements:
+
+- Background: Add a scrolling background to create a sense of movement. Research how to create a looping or scrolling background in Phaser.
+- Animations: Animate the player character (e.g., flap wings). Research how to create and play animations in Phaser.
+- Particles: Add particle effects (e.g., dust when flapping, explosion on game over). Research Phaser's particle system.
+
+2. Audio Feedback:
+
+- Flap Sound: Add a sound effect when the player flaps.
+- Score Sound: Add a sound effect when the player scores a point.
+- Collision Sound: Add a sound effect when the player collides with a pipe.
+- Background Music: Add background music to create atmosphere.
+
+3. UI Improvements:
+
+- Score Display: Improve the visual presentation of the score.
+- Game Over Screen: Make the game over screen more visually appealing.
+- Start Screen: Add a start screen with instructions.
