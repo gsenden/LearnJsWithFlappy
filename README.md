@@ -198,7 +198,7 @@ Now we can do some calculations:
 4. Create a collider between the platforms group and the player.
    - See [part 6 of the tutorial page](https://phaser.io/tutorials/making-your-first-phaser-3-game/part6)
   
-##Implement Player Input (Flap)
+## Implement Player Input (Flap)
 
 Here's how to approach this, focusing on research and discovery:
 
