@@ -200,10 +200,15 @@ Now we can do some calculations:
   
 ## Implement Player Input (Flap)
 
-Here's how to approach this, focusing on research and discovery:
+1. Detect Input: Research how to detect user input (e.g., keyboard presses, mouse clicks, or touch events) in Phaser.
+2. Apply Upward Force: When the input is detected, apply an upward force (or velocity change) to the player's physics body. Research how to modify the velocity or apply a force to a physics body in Phaser.
+3. Limit Flap Strength: Consider limiting the strength of each "flap" to prevent the player from shooting off the screen.
+4. Test and Refine: Experiment with different input methods and force values to achieve a satisfying "flapping" feel.
 
-Detect Input: Research how to detect user input (e.g., keyboard presses, mouse clicks, or touch events) in Phaser.
-Apply Upward Force: When the input is detected, apply an upward force (or velocity change) to the player's physics body. Research how to modify the velocity or apply a force to a physics body in Phaser.
-Limit Flap Strength: Consider limiting the strength of each "flap" to prevent the player from shooting off the screen.
-Test and Refine: Experiment with different input methods and force values to achieve a satisfying "flapping" feel.
-This step requires the st
+## Generate and Manage Obstacles (Pipes)
+
+1. Create Pipe Assets: Find or create image assets for the top and bottom pipe sections.
+2. Generate Pipe Pairs: Research how to programmatically generate pairs of pipes (top and bottom) with a gap in between. The pipes should appear at random heights and at regular intervals.
+3. Move Pipes: Make the pipes move horizontally across the screen towards the player. Research how to control the movement of physics objects in Phaser.
+Recycle Pipes: When a pipe pair moves off-screen, recycle it by repositioning it at the right edge of the screen with a new random height. This will create an endless stream of obstacles.
+4. Collision Detection: Implement collision detection between the player and the pipes.
