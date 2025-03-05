@@ -198,4 +198,12 @@ Now we can do some calculations:
 4. Create a collider between the platforms group and the player.
    - See [part 6 of the tutorial page](https://phaser.io/tutorials/making-your-first-phaser-3-game/part6)
   
+##Implement Player Input (Flap)
 
+Here's how to approach this, focusing on research and discovery:
+
+Detect Input: Research how to detect user input (e.g., keyboard presses, mouse clicks, or touch events) in Phaser.
+Apply Upward Force: When the input is detected, apply an upward force (or velocity change) to the player's physics body. Research how to modify the velocity or apply a force to a physics body in Phaser.
+Limit Flap Strength: Consider limiting the strength of each "flap" to prevent the player from shooting off the screen.
+Test and Refine: Experiment with different input methods and force values to achieve a satisfying "flapping" feel.
+This step requires the st
