@@ -212,3 +212,10 @@ Now we can do some calculations:
 3. Move Pipes: Make the pipes move horizontally across the screen towards the player. Research how to control the movement of physics objects in Phaser.
 Recycle Pipes: When a pipe pair moves off-screen, recycle it by repositioning it at the right edge of the screen with a new random height. This will create an endless stream of obstacles.
 4. Collision Detection: Implement collision detection between the player and the pipes.
+
+## Implement Game Over and Scoring
+
+1. Detect Collision: If the player collides with a pipe, trigger the game over sequence. You should already have collision detection in place from the previous step.
+2. Game Over State: Create a "Game Over" state or scene that displays a message (e.g., "Game Over!") and the player's score. Research how to create and switch between scenes or states in Phaser.
+3. Scoring System: Implement a scoring system that increments the player's score each time they successfully pass a pipe. Research how to keep track of and display a score in Phaser.
+4. Restart Game: Add a way for the player to restart the game after a game over. This could be a button or a key press.
